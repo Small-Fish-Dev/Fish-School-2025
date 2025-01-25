@@ -1,0 +1,90 @@
+{
+  "RootObject": {
+    "__guid": "cc151b1f-0f83-44b2-8072-a8c63190ca23",
+    "Flags": 0,
+    "Name": "environment",
+    "Enabled": true,
+    "Children": [
+      {
+        "__guid": "bfc59c12-1ed2-4f91-8956-a95a315eac3c",
+        "Flags": 0,
+        "Name": "Sun",
+        "Position": "170.5347,-234.4497,-267.9175",
+        "Rotation": "-0.0729315,0.4822396,0.1305433,0.8631827",
+        "Tags": "light_directional,light",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.DirectionalLight",
+            "__guid": "d3659344-a90d-48fa-927a-095f70fe041f",
+            "FogMode": "Enabled",
+            "FogStrength": 1,
+            "LightColor": "0.94419,0.97767,1,1",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Shadows": true,
+            "SkyColor": "0.2532,0.32006,0.35349,1"
+          }
+        ]
+      },
+      {
+        "__guid": "00344a8c-fa5e-45ae-b12a-10bb781a1dc3",
+        "Flags": 0,
+        "Name": "2D Skybox",
+        "Position": "170.5347,-234.4497,-267.9175",
+        "Tags": "skybox",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.SkyBox2D",
+            "__guid": "de79e9e0-5c37-4c54-ac67-bfcdb1d5483b",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "SkyIndirectLighting": true,
+            "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
+            "Tint": "1,1,1,1"
+          }
+        ]
+      }
+    ],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

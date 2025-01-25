@@ -1,0 +1,153 @@
+{
+  "RootObject": {
+    "__guid": "1390a3b8-bbc3-4c73-9e18-2edc5b9c2587",
+    "Flags": 0,
+    "Name": "snot",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.HullCollider",
+        "__guid": "fb6ae4aa-0d1d-4666-b9c1-394fbd122a30",
+        "BoxSize": "50,50,50",
+        "Center": "0,0,11.6",
+        "Friction": null,
+        "Height": 35.133343,
+        "IsTrigger": false,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnObjectTriggerEnter": null,
+        "OnObjectTriggerExit": null,
+        "OnTriggerEnter": null,
+        "OnTriggerExit": null,
+        "Points": [],
+        "Radius": 40.866676,
+        "Radius2": 0,
+        "Slices": 16,
+        "Static": false,
+        "Surface": null,
+        "SurfaceVelocity": "0,0,0",
+        "Type": "Cylinder"
+      },
+      {
+        "__type": "UnitComponent",
+        "__guid": "11229545-0135-4a9b-a083-cf06df08efd6",
+        "HealthRegeneration": 5,
+        "MaxHealth": 50,
+        "ModelRenderer": {
+          "_type": "component",
+          "component_id": "ff1c9d05-487a-4693-8cb1-19b17dcb076b",
+          "go": "58bba5a2-c328-4253-a319-5450a7050337",
+          "component_type": "SkinnedModelRenderer"
+        },
+        "Name": "Green Snot",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Team": "Snot"
+      },
+      {
+        "__type": "MultiplyComponent",
+        "__guid": "f1982f17-e2d2-4ee0-b24f-07558f309b78",
+        "Cooldown": "2 3",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "PrefabToClone": {
+          "_type": "gameobject",
+          "prefab": "prefabs/snot.prefab"
+        }
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "58bba5a2-c328-4253-a319-5450a7050337",
+        "Flags": 0,
+        "Name": "Body",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.SkinnedModelRenderer",
+            "__guid": "ff1c9d05-487a-4693-8cb1-19b17dcb076b",
+            "AnimationGraph": null,
+            "BodyGroups": 18446744073709551615,
+            "BoneMergeTarget": null,
+            "CreateAttachments": false,
+            "CreateBoneObjects": false,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Model": "models/snot/snot.vmdl",
+            "Morphs": {},
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Parameters": {
+              "bools": {},
+              "ints": {},
+              "floats": {},
+              "vectors": {},
+              "rotations": {}
+            },
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Sequence": {
+              "Name": null
+            },
+            "Tint": "1,1,1,1",
+            "UseAnimGraph": true
+          }
+        ]
+      }
+    ],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [
+    "fish.snot#46280"
+  ],
+  "__version": 1
+}
